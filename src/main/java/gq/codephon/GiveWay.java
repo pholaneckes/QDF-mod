@@ -46,13 +46,6 @@ public class GiveWay {
                 }
             }
         }
-/*
-        if (b.size() == 1) {
-            x.sendSuccess(new TranslationTextComponent("commands.give.success.single", c, a.createItemStack(c, false).getDisplayName(), b.iterator().next().getDisplayName()), true);
-        } else {
-            x.sendSuccess(new TranslationTextComponent("commands.give.success.single", c, a.createItemStack(c, false).getDisplayName(), b.size()), true);
-        }
- */
 
         return b.size();
     }
