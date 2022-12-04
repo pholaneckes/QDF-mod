@@ -12,11 +12,9 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-//version = 'alpha-2'
-//group = 'xiaoleqwq.formula_addition'
-version = '0.1.1c'
-group = 'gq.codephon.digi_applimobs' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'Digi_Applimobs'
+version = '3.1.2'
+group = 'gq.codephon' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'qdf'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8) // Mojang ships Java 8 to end users, so your mod should target Java 8.
 
